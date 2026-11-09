@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "716821446183",
+    "project_id": "feedbackreviewapp",
+    "storage_bucket": "feedbackreviewapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716821446183:android:f0f958407a7c1ce6aa5802",
+        "android_client_info": {
+          "package_name": "com.feedback.feedback_review_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgcCELPv76F6XNGe5Lh9H23kjRmqiRsSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

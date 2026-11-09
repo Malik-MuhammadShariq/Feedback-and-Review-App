@@ -1,0 +1,59 @@
+name: feedback_review_app
+description: A modern Feedback and Review App built with Flutter and Firebase.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase — core, auth, and Firestore database
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+
+  # State Management — Riverpod (compile-safe, auto-disposing)
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Animations — flutter_animate for staggered/entrance effects, Lottie for JSON animations
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.2
+
+  # Charts & Typography — fl_chart for admin analytics, Google Fonts for clean text
+  fl_chart: ^0.68.0
+  google_fonts: ^6.2.1
+
+  # Utilities — intl for date formatting, uuid for unique IDs
+  intl: ^0.19.0
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  riverpod_generator: ^2.4.0
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+
+  # ⚠️ IMPORTANT: You MUST place actual .json Lottie animation files inside
+  # assets/lottie/ before running the app, otherwise Flutter will throw
+  # "asset not found" errors at runtime.
+  #
+  # Recommended free Lottie files to download (lottiefiles.com):
+  #   - loading.json      → assets/lottie/loading.json
+  #   - success.json      → assets/lottie/success.json
+  #   - empty.json        → assets/lottie/empty.json
+  #
+  # If you don't have Lottie files yet, you can comment out the assets
+  # section below temporarily — the UI will fall back to Flutter's
+  # built-in CircularProgressIndicator and Icon widgets instead.
+
+  assets:
+    - assets/lottie/
+    - assets/images/
